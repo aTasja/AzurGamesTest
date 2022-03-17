@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     
     private CharacterController _characterController;
     private Animator _animator;
-    private string _speedAnimatorString = "Speed";
+    private string _speed = "Speed";
     private float _minXpos = -3f;
     private float _maxXpos = 3f;
 
@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
     
     private void Move()
     {
-        _animator.SetFloat(_speedAnimatorString, MovementSpeed);
+        _animator.SetFloat(_speed, MovementSpeed);
         _characterController.Move(Vector3.forward * MovementSpeed * Time.deltaTime);
     }
 
@@ -51,5 +51,5 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void Stop() => _animator.SetFloat(_speedAnimatorString, 0);
+    private void Stop() => _animator.SetFloat(_speed, 0);
 }
