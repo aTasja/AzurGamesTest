@@ -355,12 +355,14 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Scripts/BasicUI.cs"
+"Assets/Scripts/CoinsScoreboard.cs"
 "Assets/Scripts/CollectibleCoin.cs"
-"Assets/Scripts/FinishTrigger.cs"
-"Assets/Scripts/Managers/CoinsManager.cs"
-"Assets/Scripts/Managers/GameManager.cs"
-"Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/Finish/FinishTrigger.cs"
+"Assets/Scripts/Finish/FinishUI.cs"
+"Assets/Scripts/LevelStart.cs"
+"Assets/Scripts/Player/PlayerAnimator.cs"
+"Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Player/PlayerPurse.cs"
 -langversion:9.0
 
 /deterministic

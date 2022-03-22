@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Managers;
+using Player;
 using UnityEngine;
 
 public class CollectibleCoin : MonoBehaviour
@@ -16,8 +16,8 @@ public class CollectibleCoin : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        GameManager.AddCoin();
-        PlayParticleEffect();
+        if(other.GetComponent<PlayerPurse>())
+            PlayParticleEffect();
     }
 
     private void PlayParticleEffect()

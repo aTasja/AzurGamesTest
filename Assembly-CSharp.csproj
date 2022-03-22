@@ -41,12 +41,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\BasicUI.cs" />
+     <Compile Include="Assets\Scripts\LevelStart.cs" />
+     <Compile Include="Assets\Scripts\Finish\FinishUI.cs" />
      <Compile Include="Assets\Scripts\CollectibleCoin.cs" />
-     <Compile Include="Assets\Scripts\FinishTrigger.cs" />
-     <Compile Include="Assets\Scripts\Managers\CoinsManager.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Finish\FinishTrigger.cs" />
+     <Compile Include="Assets\Scripts\CoinsScoreboard.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimator.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerPurse.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
